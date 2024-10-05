@@ -1,0 +1,44 @@
+.pie_de_pagina{
+    width: 360px;
+    height: 151px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.social_media{
+    width: 239px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.img_fece, .img_insta, .img_google{
+    width: 45px;
+    height: 45px;
+    padding: 20px;
+}
+.contenedor_pie{
+    display: flex;
+    justify-content: center; /* Centra los pies dentro de su contenedor */
+    align-items: center;
+    flex-direction: row; /* Coloca los pies lado a lado */
+    margin-top: 10px; 
+    
+
+}
+
+.pie1{
+    color: #BE6C97;
+    font-size: 15px;
+    font-family: 'Poppins', Light;
+}
+.pie2{
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', Light;
+    color: #000000;
+}

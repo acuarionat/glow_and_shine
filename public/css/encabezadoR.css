@@ -1,0 +1,16 @@
+.encabezado{
+    background-color: #BE6C97;
+    width: 360px;
+    height: 110px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+
+}
+.encabezado_regis{
+    color: #F5F4F4;
+    font-size: 20px;
+    font-family: 'Poppins', semi-bold;
+    text-align: center;
+    
+}

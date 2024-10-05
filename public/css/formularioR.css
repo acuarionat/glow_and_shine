@@ -1,0 +1,45 @@
+.form_registro{
+    width: 352px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column
+
+}
+
+input {
+    width: 318px;
+    height: 53px;
+    border-radius: 31px;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    font-size:20px ;
+    color: grey;
+    font-family: 'Poppins', semi-bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 21px;
+    padding-left: 15px; 
+    
+}
+
+.boton_submit{
+    background-color: #764C73;
+    width: 315px;
+    height: 52px;
+    border: #764C73;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    
+    
+}
+
+.boton_submit:active{
+    background-color: #C9A8CB ;
+}
