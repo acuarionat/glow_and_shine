@@ -1,0 +1,37 @@
+body{
+    background-color: #FEE9FF;
+    margin: 10%;   
+    color: #601A55;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.contenedor_catalogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.texto_categoria{
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 769px) {
+    .contenedor_catalogo { 
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .texto_categoria{
+        width: 100%;
+        height: auto;
+        font-size: 32px;
+    }
+    
+}
