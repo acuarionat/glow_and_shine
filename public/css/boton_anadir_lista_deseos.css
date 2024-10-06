@@ -1,0 +1,104 @@
+
+.contenedor_anadir_lista_deseos{
+    width: 25%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.contenedor_boton_anadir_lista_deseos{
+    width: 35%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_nombre_producto_especifico{
+    width: 75%;
+}
+.nombre_producto_especifico {
+    color: #601A55;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem; /* Ajuste para una mejor visibilidad en móviles */
+    text-align: center; /* Centrado en pantallas pequeñas */
+}
+.boton_lista_deseos {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    display: flex;
+    margin: 0;
+}
+
+.icono_corazon {
+    width: 80%;
+    height: 80%;
+    stroke: #cccccc; 
+    fill: none;
+    transition: stroke 0.3s ease, fill 0.3s ease;
+}
+
+.icono_corazon.active {
+    stroke: red;
+    fill: red; /* Relleno rojo cuando está activo */
+}
+
+.contenedor_texto_anadir_lista_deseos {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin: 0;
+    width: 100%; /* Asegura que el contenedor tome todo el ancho disponible */
+}
+
+.anadir_lista_deseos {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #601A55;
+    margin: 0;
+    padding: 0;
+    font-size: 85%;
+    text-align: center; /* Asegura que el texto se alinee al centro dentro del contenedor */
+}
+
+@media (min-width: 769px) {
+    .contenedor_anadir_lista_deseos {
+        width: 40%;
+        flex-direction: row-reverse;
+        justify-content: space-around; /* Distribuye los elementos de forma equitativa */
+        height: 100px; /* Aumentamos la altura para pantallas grandes */
+    }
+    .anadir_lista_deseos {
+        font-size: 22px;
+    }
+
+    .boton_lista_deseos {
+        width: 70px;
+        height: 70px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        outline: none;
+        display: flex;
+    }
+    .boton_lista_deseos {
+        width: 70px;
+        height: 70px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        outline: none;
+        display: flex;
+    }
+
+}
