@@ -1,6 +1,5 @@
 .botones_registro{
-    width: 321px;
-    height: 84px;
+    flex-wrap: wrap;
     display: flex; 
     justify-content: center; 
     align-items: center; 

@@ -14,6 +14,8 @@ use App\Http\Controllers\Home;
 
 Route::get('/',[Home::class, 'index'] );
 
+Route::post('/posts',[Home::class,'store']);
+
 Route::get('/perfilCuenta',[Home::class, 'index'] );
 
 Route::get('/post', function () {

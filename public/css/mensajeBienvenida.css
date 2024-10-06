@@ -1,0 +1,28 @@
+.mensaje_contenedor{
+    background-color: #FBB7FF;
+    width: 100%; 
+    min-width: 360px;
+    height: 190px; 
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    
+}
+.encabezado_B{
+    color: #601A55;
+    font-size: 1rem;
+    font-family: 'Poppins', semi-bold;
+    
+    
+}
+.mensaje_B{
+    color: #601A55;
+    font-size: 15px;
+    font-family: 'Poppins', Regular;
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}

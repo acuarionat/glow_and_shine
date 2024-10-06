@@ -1,0 +1,40 @@
+.navbar{
+    /* width: 360px;
+    height: 35px; */
+    width: 100%;
+    background-color: #BE6C97;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Poppins', semi-bold;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.encabezado_p{
+    /* width: 320px;
+    height: 41px; */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: row; 
+    margin: 17px; 
+    
+}
+.saludo{
+    color: #BE6C97;
+    font-size: 24px;
+    align-items: center;
+    font-family: 'Poppins', Regular;
+   
+}
+.cerrar_s{
+    color: #764C73;
+    font-size: 15px;
+    font-family: 'Poppins', semi-bold;
+    margin-left: 10px;
+    align-items: center;
+   
+
+}
