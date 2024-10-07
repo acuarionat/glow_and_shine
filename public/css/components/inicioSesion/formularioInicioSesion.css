@@ -1,0 +1,41 @@
+.contenedor_formulario_inicio_sesion
+{
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-top: 60px;
+    padding: 0px 30px 0px 30px;
+}
+
+.formulario_inicio_sesion{
+    background-color: #FEE9FF;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.formulario_inicio_sesion input
+ {
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #BE6C97;
+    border-radius: 31.5px;
+}
+.formulario_inicio_sesion button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #764C73;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.formulario_inicio_sesion button:hover {
+    background-color: #BE6C97;
+}
