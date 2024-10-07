@@ -4,6 +4,7 @@
 </head>
 
 <div class="contenedor_informacion">
+    
    
         <p class="info_p"><strong>Nombres:</strong></p>
         <p class="info_p"> [Nombre recolectado]</p>

@@ -16,10 +16,10 @@
     /* width: 320px;
     height: 41px; */
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    flex-direction: row; 
     margin: 17px; 
+    gap: 8rem;
     
 }
 .saludo{
@@ -27,6 +27,8 @@
     font-size: 24px;
     align-items: center;
     font-family: 'Poppins', Regular;
+    justify-content: space-between;
+    
    
 }
 .cerrar_s{
@@ -35,6 +37,8 @@
     font-family: 'Poppins', semi-bold;
     margin-left: 10px;
     align-items: center;
+    justify-content: space-between;
+    
    
 
 }

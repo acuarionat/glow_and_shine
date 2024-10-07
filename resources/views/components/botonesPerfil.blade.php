@@ -2,9 +2,9 @@
 
 <div class="contenedor_botones">
     <button class="boton_p1">
-        Iniciar sesión
+        Cuenta
     </button>
     <button class="boton_p2">
-        Registrarse
+        Lista de deseos
     </button>
 </div>

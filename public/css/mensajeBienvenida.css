@@ -1,7 +1,6 @@
 .mensaje_contenedor{
     background-color: #FBB7FF;
     width: 100%; 
-    min-width: 360px;
     height: 190px; 
     
     display: flex; 
