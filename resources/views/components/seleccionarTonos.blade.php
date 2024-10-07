@@ -16,7 +16,7 @@
             <div class="tonos"></div>
         </div>
         <h4 class="texto_seleccionar_tonos_descripcion">Descripción</h4>
-        <h4 class="texto_seleccionar_tonos_descripcion">Un labial líquido mate súper ligero, que no deja tus labios secos ni cuarteados, todo gracias a su fórmula ultra hidratante. Su tinta líquida se imprime en tus labios con un color intenso que se mantiene intacto hasta por 12 horas. Además, después de secarse, no se transfiere!. Come, ríe, besa y siempre con el labial intacto!</h4>
+        <h4 class="texto_seleccionar_tonos_descripcion">{{ $producto->descripcion }}</h4>
     </div>
     
 </body>

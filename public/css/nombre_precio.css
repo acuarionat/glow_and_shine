@@ -1,5 +1,5 @@
 .contenedor_nombre_producto_especifico{
-    width: 75%;
+    width: 72%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     font-weight: 600;
     font-style: normal;
     font-size: 1.2rem; 
-    text-align: center;
+    text-align: left;
 }
 
 .caracteristica_precio{
@@ -28,7 +28,7 @@
     color: #601A55;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 .precio_producto{
     font-family: "Poppins", sans-serif;
@@ -58,11 +58,12 @@
         font-weight: 600;
         font-style: normal;
         font-size: 27px;
-        text-align: center;
+        text-align: left;
     }
     
     .caracteristica_producto{
         font-size: 20px;
+        text-align: left;
     }
     .precio_producto{
         font-size: 23px;

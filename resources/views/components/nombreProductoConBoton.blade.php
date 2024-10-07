@@ -9,7 +9,7 @@
 <body>
     <div class="contenedor_boton_nombre">
         <x-botonAnadirListaDeseos/>
-        <x-nombrePrecio/>
+        <x-nombrePrecio :producto="$producto" />
     </div>        
 </body>
 </html>

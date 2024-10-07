@@ -22,8 +22,8 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.5rem; /* Ajuste para una mejor visibilidad en móviles */
-    text-align: center; /* Centrado en pantallas pequeñas */
+    font-size: 1.5rem;
+    text-align: center;
 }
 .boton_lista_deseos {
     width: 100%;
@@ -47,15 +47,15 @@
 
 .icono_corazon.active {
     stroke: red;
-    fill: red; /* Relleno rojo cuando está activo */
+    fill: red;
 }
 
 .contenedor_texto_anadir_lista_deseos {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    width: 100%; /* Asegura que el contenedor tome todo el ancho disponible */
+    width: 100%;
 }
 
 .anadir_lista_deseos {
@@ -66,15 +66,15 @@
     margin: 0;
     padding: 0;
     font-size: 85%;
-    text-align: center; /* Asegura que el texto se alinee al centro dentro del contenedor */
+    text-align: center;
 }
 
 @media (min-width: 769px) {
     .contenedor_anadir_lista_deseos {
         width: 40%;
         flex-direction: row-reverse;
-        justify-content: space-around; /* Distribuye los elementos de forma equitativa */
-        height: 100px; /* Aumentamos la altura para pantallas grandes */
+        justify-content: space-around;
+        height: 100px;
     }
     .anadir_lista_deseos {
         font-size: 22px;

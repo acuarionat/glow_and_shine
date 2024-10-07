@@ -6,8 +6,8 @@ use App\Http\Controllers\catalogoController;
 
 Route::get('/', [catalogoController::class, 'mostrarCatalogoMaquillaje']);
 
-Route::get('/producto/{id}', [catalogoController::class, 'mostrarProducto'])->name('producto.detalle');
-
+// routes/web.php
+Route::get('/producto/{id}', [catalogoController::class, 'mostrarDetalleProducto']);
 
 // Route::get('/', function () {
 //     return view('producto');

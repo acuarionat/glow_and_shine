@@ -8,10 +8,13 @@
     
 </head>
 <body>
+    @if(isset($producto))
     <div class="contenedor_imagen_producto">
-        <img src="{{ asset('images/labial.png') }}" alt="Producto" class="imagen_producto">
-        <!-- <h1 class="nombre_producto_especifico">Hydra-Lip Labial Líquido Mate Hot Paprika</h1> -->
+        <img src="{{ $producto->direccion_imagen }}" alt="{{ $producto->nombre }}" class="imagen_producto">
     </div>
-    
+    @else
+    <p>Producto no encontrado</p>
+    @endif
+
 </body>
 </html>

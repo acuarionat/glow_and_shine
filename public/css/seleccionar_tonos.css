@@ -9,7 +9,7 @@
     color: #601A55;
     margin: 0;
     padding: 3%;
-    text-align: center;
+    text-align: justify;
 }
 
 .contenedor_tonos{
@@ -39,6 +39,7 @@
     }
     .texto_seleccionar_tonos_descripcion{
         font-size: 20px;
+        text-align: justify;
     }
 
     .tonos{

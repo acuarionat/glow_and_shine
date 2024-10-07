@@ -6,6 +6,10 @@
     text-align: center;
 
 }
+.contenedor_tarjeta a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Mantiene el color del texto del padre */
+}
 
 .contenedor_imagen_tarjeta{
     width: 100%;
