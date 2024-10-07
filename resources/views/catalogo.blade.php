@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,14 @@
     <link rel="stylesheet" href="{{ asset('css/catalogo.css') }}">
     <title>Catalogo</title>
 </head>
+
 <body>
     <h2 class="texto_categoria">Maquillaje</h2>
     <div class="contenedor_catalogo">
         @foreach($productos as $producto)
-            <x-tarjetaProducto :producto="$producto"/>
+        <x-tarjetaProducto :producto="$producto" />
         @endforeach
     </div>
 </body>
+
 </html>

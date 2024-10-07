@@ -7,8 +7,8 @@
 
 }
 .contenedor_tarjeta a {
-    text-decoration: none; /* Elimina el subrayado */
-    color: inherit; /* Mantiene el color del texto del padre */
+    text-decoration: none;
+    color: inherit;
 }
 
 .contenedor_imagen_tarjeta{
@@ -18,7 +18,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2%;
     box-sizing: border-box;
     height: auto;
 }
@@ -32,12 +31,13 @@
 
 .informacion_producto{
     margin: 0;
+    font-size: 0.9rem;
 }
 
 @media (min-width: 769px) {
     .informacion_producto{
         margin: 0;
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .contenedor_tarjeta{

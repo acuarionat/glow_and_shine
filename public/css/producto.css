@@ -1,6 +1,7 @@
 body{
     background-color: #FEE9FF;
-    margin: 10%;   
+    margin-right: 10%;   
+    margin-left: 10%;
 }
 
 @media (min-width: 769px) {
